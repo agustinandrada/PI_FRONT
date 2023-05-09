@@ -1,0 +1,21 @@
+.button{
+        background: #92c7eb;
+        background-image: url("../../Utils/Revision\ 2.1.png");
+        background-size: 250px;
+        background-position: center;
+        display: inline-block;
+        padding: 100px;
+        width: 70px;
+        border: 3px solid black;
+        border-radius: 1000px;
+        border-color: rgba(255, 255, 255, 0.803);
+        height: 70px;
+        cursor: pointer;
+        margin-top: 300px;
+        box-shadow: 0 0 10px rgb(4, 61, 147);
+}
+
+.button:hover{
+        transform: scale(1.1);
+        box-shadow: 0 0 20px rgb(4, 61, 147); ;
+}

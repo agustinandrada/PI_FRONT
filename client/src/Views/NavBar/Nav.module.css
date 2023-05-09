@@ -1,0 +1,28 @@
+.buttons {
+    display: flex;
+    gap: 1em;
+    flex-direction: row;
+    margin-left: 15%;
+    margin-top: 0.5%;
+    height: 1%;
+    width: 10%;
+    position: absolute;
+    border-radius: 10px;
+    justify-content: center ;
+    cursor: default;
+}
+
+.buttons button {
+    width: 110px;
+    text-align: center;
+    color: rgb(174, 90, 0);
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 2px;
+    font-size: 14px;
+    border-color: rgb(157, 104, 30);
+    border-radius: 10px;
+    box-shadow: 0 0 2px orangered;
+    cursor: pointer;
+}
+

@@ -1,0 +1,134 @@
+.form {
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 2px;
+    font-size: 10px;
+    border: 2px solid #5d4204;
+    border-radius: 5%;
+    box-sizing: border-box;
+    box-shadow:0 0 10px 0 rgba(4, 1, 1, 0.896);
+    background-image: url("../../Utils/Be\ Kind.png");
+    background-size:cover;
+    background-position-y: top;
+    width: 40%;
+    padding-top: 4%;
+    padding-bottom: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
+    position:fixed;
+    top:10%;
+    bottom: 25%;
+    left: 30%;
+}
+
+.ref1{
+    border: 2px solid #5d4204;
+    border-radius: 15px;
+    box-sizing: border-box;
+    box-shadow:0 0 10px 0 rgba(4, 1, 1, 0.896);
+    background-image: url("../../Utils/Tu\ historia\ Aviso\ para\ veterinaría\ Ilustrado\ Amarillo\ y\ Azul\ \(3\).png");
+    background-position: center;
+    background-size: cover;
+    height: 95%;
+    width: 25%;
+    position:absolute;
+    top: 2%;
+    left: 1%;
+    animation: float 5s ease-in-out infinite;
+}
+
+.ref2{
+    border: 2px solid #5d4204;
+    border-radius: 15px;
+    box-sizing: border-box;
+    box-shadow:0 0 10px 0 rgba(4, 1, 1, 0.896);
+    background-image: url("../../Utils/Tu\ historia\ Aviso\ para\ veterinaría\ Ilustrado\ Amarillo\ y\ Azul\ \(2\).png");
+    background-position: center;
+    background-size: cover;
+    height: 95%;
+    width: 25%;
+    position:absolute;
+    top:2%;
+    right:1%;
+    animation: float 5s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+.small{
+    font-size:xx-small;
+}
+
+.error{
+    font-size: small;
+    color: red;
+    font-style: italic;
+}
+
+.button{
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 2px;
+    font-size: 15px;
+    color: #463201;
+    justify-content:center;
+    background: #d59a25;
+    display: flex;
+    width: 120px;
+    height: 30px;
+    border: 3px solid black;
+    border-radius: 15px;
+    border-color: rgba(255, 255, 255, 0.803);
+    margin-top: 15%;
+    margin-left: 37%;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+
+.buttons {
+  display: flex;
+  gap: 1em;
+  flex-direction: row;
+  height: 1%;
+  width: 10%;
+  position: absolute;
+  margin-top: 1%;
+  margin-left: 45%;
+  border-radius: 10px;
+  justify-content: center ;
+}
+
+.buttons button {
+  width: 100px;
+  text-align: center;
+  color: rgb(174, 90, 0);
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 2px;
+  font-size: 14px;
+  border-color: rgb(157, 104, 30);
+  border-radius: 10px;
+  box-shadow: 0 0 2px orangered;
+  cursor:pointer;
+}
+
+.input{
+  position: relative;
+  border-radius: 10px;
+  border-color: rgb(157, 104, 30);
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 2px;
+  font-size: 12px;
+  width: 150px;
+  padding: 3px;
+}
+

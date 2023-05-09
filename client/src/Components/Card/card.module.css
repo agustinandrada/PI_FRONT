@@ -1,0 +1,101 @@
+.card{
+    display: flexbox;
+    width: 330px;
+    height: 300px;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 0px;
+    margin-top: 15%;
+    margin-left: 10%;
+    cursor: default;
+    
+}
+.card:hover{
+    transform: scale(1.1);
+    width: 250px;
+    height: 440px;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    font-size: 14px;
+    color:black;
+    background-color: rgb(220, 142, 70);
+    box-shadow: 0 0 20px rgb(114, 53, 8);
+    border: 1px solid rgb(200, 135, 94);
+    cursor: pointer;
+}
+
+.image{
+    position: relative;
+    width: 300px; 
+    height: 301px;
+    margin-top: -1%; 
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgb(116, 68, 9);
+}
+
+.image:hover{
+    position: relative;
+    width: 240px; 
+    height: 250px;
+    margin-top: 10%; 
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.title{
+    margin-left: 20%;
+    margin-top:30%;
+    margin-bottom: 10%;
+    justify-content: center;
+    text-align: center;
+    color: rgb(174, 90, 0);
+    text-shadow: 1px 1px 2px rgb(220, 122, 65);
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 2px;
+    font-size: 14px;
+    border-radius: 15px;
+    background-color: rgb(248, 248, 248);
+    box-shadow: 0 0 8px rgb(90, 48, 3);
+    height: 40px;
+    padding-top: 1%;
+    cursor:default;
+}
+
+.detail{
+    display: flexbox;
+    border: 2px solid rgb(245, 245, 245);
+    box-shadow: 0 0 10px rgb(189, 131, 24);
+    width: 450px;
+    height: 600px;
+    border-radius: 15px;
+    background-color: rgb(230, 176, 84);
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    font-size: 20px;
+    animation: float 3s ease-in-out infinite;
+}
+
+
+.imageDetail{
+    width: 300px; 
+    height: 250px; 
+    border: 0.5px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+@keyframes float {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+

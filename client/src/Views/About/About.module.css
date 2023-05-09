@@ -1,0 +1,75 @@
+.ref1{
+    background-image: url("../../Utils/aboutMe.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 50%;
+    position:absolute;
+    top: -3%;
+    left: 4%;
+}
+
+.ref2{
+    background-image: url("../../Utils/Brown Minimalist Scrapbook Personal Profile All About Me Poster.png");
+    background-position:center ;
+    background-size:100%;
+    background-repeat: no-repeat;
+    height: 102%;
+    width: 35%;
+    position:absolute;
+    top: -5%;
+    left: 50%;
+}
+
+.ref3{
+    background-image: url("../../Utils/asd.png");
+    background-position:center ;
+    background-repeat: repeat;
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+    position:absolute;
+    top: 0%;
+}
+
+.buttons {
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
+    height: 20%;
+    width: 10%;
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 2%;
+    border-radius: 10px;
+    background-color: rgb(241, 175, 116);
+    box-shadow: 0 0 5px rgb(214, 100, 0);
+    animation: float 3s ease-in-out infinite;
+    justify-content: center ;
+}
+
+.buttons button {
+    width: 100px;
+    text-align: center;
+    color: rgb(174, 90, 0);
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 2px;
+    font-size: 14px;
+    border-color: rgb(157, 104, 30);
+    border-radius: 10px;
+    box-shadow: 0 0 2px orangered;
+}
+
+@keyframes float {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }

@@ -1,0 +1,45 @@
+.filters{
+    display: flex;
+    position: absolute;
+    margin-left: 57%;
+    margin-top: 0.5%;
+}
+
+.input{
+    position: relative;
+    border-radius: 10px;
+    border-color: rgb(191, 121, 23);
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 2px;
+    font-size: 12px;
+    width: 165px;
+    padding: 3px;
+    box-shadow: 0 0 5px rgb(101, 42, 5);
+}
+
+.select{
+    position: relative;
+    border-radius: 10px;
+    border-color: rgb(157, 104, 30);
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 2px;
+    font-size: 12px;
+    width: 130px;
+    padding: 3px;
+    box-shadow: 0 0 5px rgb(101, 42, 5);
+}
+
+.button{
+    position: relative;
+    border-radius: 10px;
+    border-color: rgb(157, 104, 30);
+    background-color: rgb(234, 190, 124);
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 2px;
+    font-size: 13px;
+    width: 90px;
+    padding: 3px;
+    box-shadow: 0 0 5px rgb(101, 42, 5);
+    cursor: pointer;
+
+}
